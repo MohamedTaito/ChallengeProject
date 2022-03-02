@@ -1,18 +1,18 @@
 <template>
   <div>
     <nav-bar />
-    <main-view />
+    <thank-view />
   </div>
 </template>
 
 <script>
 import NavBar from "../components/NavBar";
-import MainView from "../components/MainView";
+import ThankView from "../components/ThankView";
 export default {
-  name: "HomeView",
+  name: "ThankYou",
   components: {
     NavBar,
-    MainView,
+    ThankView,
   },
 };
 </script>

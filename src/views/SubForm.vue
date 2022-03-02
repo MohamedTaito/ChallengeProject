@@ -1,18 +1,18 @@
 <template>
   <div>
     <nav-bar />
-    <main-view />
+    <sub-view />
   </div>
 </template>
 
 <script>
 import NavBar from "../components/NavBar";
-import MainView from "../components/MainView";
+import SubView from "../components/SubscribeView";
 export default {
-  name: "HomeView",
+  name: "SubForm",
   components: {
     NavBar,
-    MainView,
+    SubView,
   },
 };
 </script>
